@@ -20,6 +20,10 @@ I want to create a little service that listens and prints out cards for things I
 
 ## Working Image Examples
 
+Either copy the following image or try out the script in [p5.js](https://editor.p5js.org/) yourself. You can then try printing it with: 
+
+`lp -d devterm_printer -o fit-to-page -o media=Custom.57x81mm -o scaling=100 ${PATH_TO_IMAGE}`
+
 ![An example card with a grey background, underlined header and main text body. The header reads: this is a card. The main text reads: There is text inside of the card. As you can see, it wraps. The final version using Go Graphics (gg) should match this general appearance. The ability to grow vertically would also be cool!](https://vcvcvc-dev.us-east-1.linodeobjects.com/400x300.png)
 
 ```javascript

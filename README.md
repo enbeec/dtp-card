@@ -2,9 +2,11 @@
 
 A.K.A. **D**ev**T**erm **P**rinter **Card** Maker
 
-## Why
+## Eventually...
 
-I want to create a little service that listens and prints out cards for things I want to remember throughout the day. I intend to make it available via a simple `curl` script in my shell and editors.
+I'm going to find a canvas-y library for Go that I like because I like writing Go and I love deploying Go. My pipe dream is to have a structured logging service on my network with filters for really critical (or fun or important) events that print out little cards on a the thermal paper spool!
+
+*If you think that's crazy just you wait until I try to hook up my cheap scanner and a sort of buffer spool so I can make a breakout viral video where JSON is laboriously sent over the network, used to render an image, printed on a thermal printer, buffered on a spool and **eventually** scanned for storage.*
 
 ## Working Image Examples
 

@@ -6,18 +6,6 @@ A.K.A. **D**ev**T**erm **P**rinter **Card** Maker
 
 I want to create a little service that listens and prints out cards for things I want to remember throughout the day. I intend to make it available via a simple `curl` script in my shell and editors.
 
-## Requirements
-
-- [ ] plain text HTTP service (LAN/VPN only)
-- [ ] `/card/print?header=myHeader&fullText=someTextHereToPrint`
-	- creates the card using `github.com/fogleman/gg`
-	- rather than saving the file, just send it to `lp` for printing
-	- JSON could end up being a good call but URL params
-- [ ] `/card/help` returns usage info
-- [ ] example client script using `sh` and `curl`
-- [ ] BONUS: an `org-babel` example using [`ob-http`](https://github.com/zweifisch/ob-http)
-- [ ] BONUS: a capture command in Emacs
-
 ## Working Image Examples
 
 Either copy the following image or try out the script in [p5.js](https://editor.p5js.org/) yourself. You can then try printing it with: 
